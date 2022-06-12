@@ -96,9 +96,7 @@ img {vertical-align: middle;}
     position: relative;
   margin: auto;
 }
-.new-bar #a{
 
-}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;

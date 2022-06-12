@@ -142,7 +142,7 @@
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           DANH MỤC
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="z-index: ;">
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="z-index: 0">
           <ul class="list-unstyled level1">
           <?php 
               $conn = Connection::getInstance();
@@ -158,9 +158,9 @@
                   <?php foreach($categoriesSub as $rowsSub): ?>
                       <li class="nav-link" style="padding-left:40px;"><a style="text-decoration: none; color: black;" href="index.php?controller=products&action=field&id=<?php echo $rowsSub->id; ?>"><?php echo $rowsSub->name; ?></a></li>
                       
-                  <?php endforeach; ?>
+                  <?php endforeach ?>
                   <div class="dropdown-divider"></div>
-            <?php endforeach; ?>
+                   <?php endforeach;?>
           </ul>
         </div>
       </li>
@@ -168,7 +168,7 @@
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           THƯƠNG HIỆU
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="z-index: ;">
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="z-index: 0">
           <ul class="list-unstyled level1">
           <?php 
               $conn = Connection::getInstance();
