@@ -1,0 +1,45 @@
+body{
+	background-image: url('../images/anh13.jpg');
+}
+.login{
+	margin: auto;
+	width: 800px;
+	padding: 25px 50px 50px 25px;
+	margin-top: 150px;
+	background-color: white;
+	font-size: 20px;
+}
+.login label{
+	padding: 20px 0px 15px 0px;
+}
+.login #DN{
+
+	width: 150px;
+	/*position: relative;
+    top: -173px;
+    right: -485px;*/
+}
+.login #Face{
+	width: 150px;
+	/*position: relative;
+    top: -110px;
+    right: -332px;*/
+}
+.login p{
+	padding-left: 50px;
+}
+.login button{
+	margin: 0;
+	margin-right: 40px;
+}
+.login form{
+	margin-bottom: 15px;
+}
+.login a{
+	padding: 5px;
+	color: black;
+}
+.login a:hover{
+	background-color: gray;
+	color: white;
+}

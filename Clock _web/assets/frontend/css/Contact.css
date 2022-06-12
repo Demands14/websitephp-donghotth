@@ -1,0 +1,35 @@
+.first{
+	padding: 50px;
+	margin-top: 60px;
+	padding-top: 40px;
+	text-align: center;
+	color: white;
+}
+.inform{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 1200px;
+}
+.inform iframe{
+	margin-right: 20px;
+}
+.inform .media-body{
+	margin-left: 20px;
+}
+.inform a{
+	text-decoration: none;
+	color: black;
+}
+.inform a i{
+	margin-right: 15px;
+}
+.inform input{
+	width: 45%;
+}
+textarea{
+	width: 91%;
+}
+.inform button{
+	width: 50%;
+	margin: auto;
+}

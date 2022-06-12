@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^home$  index.php
+RewriteRule ^cart$  index.php?controller=cart
+RewriteRule ^news$  index.php?controller=news
+RewriteRule ^contact$  index.php?controller=contact
+RewriteRule ^products/category/(.*)/(.*)$  index.php?controller=products&action=category&id=$1
+RewriteRule ^products/detail/(.*)/(.*)$  index.php?controller=products&action=detail&id=$1

@@ -1,0 +1,14 @@
+.navbar-brand > img{
+	width: 50%;
+	border: 1px black solid;
+}
+.narbar{
+	 style="height: 100px;"
+}
+.a img{
+	width: 30px;
+}
+.bg-light{
+	color: white;
+	background: black;
+}

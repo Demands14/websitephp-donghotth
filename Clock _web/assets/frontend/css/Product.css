@@ -1,0 +1,57 @@
+.inform{
+	margin: auto;
+	margin-top: 150px;
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.media img{
+	width: 50%;
+}
+.media input{
+	width: 40px;
+}
+.media button{
+	background-color: orange;
+	color: white;
+}
+.content{
+	margin-top: 100px;
+}
+.new_title{
+	 background-color: #FFCC00;
+}
+.new_title h3{
+	margin: 0 10px;
+	padding: 5px 0;
+}
+.block-content{
+	margin: 10px;
+}
+.block-content .sp_1{
+	margin: 30px 0;
+}
+.block-content .sp_1  p{
+	color: gray;
+	margin-left: 20px;
+	line-height: 5px;
+}
+.block-content .sp_1 i{
+	float: left;
+	margin-right: 8px;
+	font-size: 25px;
+}
+.panel-heading{
+	background-color: lightgray;
+}
+.panel-heading p{
+	padding: 10px;
+	margin: 0;
+}
+
+.media-body{
+	
+}
+footer{
+	margin-top: 50px;
+}
