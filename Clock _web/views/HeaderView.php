@@ -52,7 +52,7 @@
     <div class="top-header">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-8"> <span style="margin-right: 10px;"><i class="fa fa-phone"></i> (04) 6674 2332</span> <span><i class="fas fa-envelope"></i> <a href="mailto:hieunadal2411@mail.com"style="color:white; text-decoration:none;">hieunadal2411 @mail.com</a></span> </div>
+      <div class="col-xs-12 col-sm-12 col-md-8"> <span style="margin-right: 10px;"><i class="fa fa-phone"></i> (04) 6674 2332</span> <span><i class="fas fa-envelope"></i> <a href="mailto:pxd1491.forwork@mail.com"style="color:white; text-decoration:none;"> pxd1491.forwork@mail.com</a></span> </div>
       <div class="col-xs-12 col-sm-12 col-md-4 customer" style="text-align:right;">
         <?php if(isset($_SESSION['customer_email'])): ?>
         <a href="index.php?controller=account&action=detail" style="color:white; text-decoration: none;">Xin chào <?php echo $_SESSION['customer_email']; ?></a>&nbsp; &nbsp;<a href="index.php?controller=account&action=logout" style="color:white; text-decoration: none;">Đăng xuất</a>
