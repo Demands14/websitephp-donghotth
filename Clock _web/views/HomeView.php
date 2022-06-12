@@ -222,7 +222,7 @@
     					
     					<p class="card-text" style="margin: 0;"><div  style="font-size: 14px; height: 229px; overflow: hidden;" class="info">
                     <h3 style="line-height: 16px;height: 60px;"><a style="text-decoration:none; font-size: 17px; color:black;" class="text3line" href="index.php?controller=news&action=detail&id=<?php echo $rows->id; ?>" style="font-weight: bold;"><?php echo $rows->name; ?></a></h3>
-                    <p class="desc"><?php echo $rows->description; ?></p>
+                    <p class="desc"><?php echo $rows->about; ?></p>
                   </div></p>
     					
     					<a style="text-decoration:none;" href="index.php?controller=news&action=detail&id=<?php echo $rows->id; ?>" class="btn-primary">Đọc thêm >></a>
